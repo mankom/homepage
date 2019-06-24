@@ -1,0 +1,33 @@
+body{
+    background: #fefefe;
+}
+
+.subpageHeader {
+color: #800060;
+}
+
+.subpageHeaderLinks {
+    color: #a000fd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.subpageArticleTitle{
+    color: rgb(35, 122, 35);
+}
+
+.subpageArticleText{
+    color: #09093b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.subpageArticleFooter{
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(120, 120, 120);
+}
+
+.subpageFooter{
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    font-style: italic;
+}
