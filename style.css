@@ -1,22 +1,29 @@
 body {
-	background: #fefefe;
+	background: #Fefefe;
+	color: #362C28
 }
 
 .mainHeader {
-	color: tomato;
+	color: #362C28;
 }
 
-.sectionHeader {
-	color: #1460AA;
-	
+.aboutMe {
+	color: #828C4A;
 }
 
-.diaryHeader {
-	color: rgb(158, 20, 170);
-	font-size: 64px;
+.diaryHeader, .sectionHeader {
+	color: #6F5C30;
 }
 
-p {
-	color: darkblue;
+.weekSection {
+	color: #63765B;
 }
 
+.daySection {
+	color: #828C4A;
+}
+
+.link {
+	color: #D1CFC0;
+	font-size: 13px;
+}
