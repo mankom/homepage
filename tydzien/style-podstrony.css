@@ -1,33 +1,28 @@
 body{
     background: #fefefe;
+    color: #190e4f;
 }
 
 .subpageHeader {
-color: #800060;
+color: #B33C86;
 }
 
-.subpageHeaderLinks {
-    color: #a000fd;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.link {
+	color: #F49D37;
+	font-size: 13px;
 }
 
 .subpageArticleTitle{
-    color: rgb(35, 122, 35);
+    color: #EA638C;
 }
 
 .subpageArticleText{
-    color: #09093b;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.subpageArticleFooter{
-    font-size: 15px;
-    font-style: italic;
-    color: rgb(120, 120, 120);
-}
 
-.subpageFooter{
-    color: rgb(150, 150, 150);
-    font-size: 15px;
+.subpageFooter, .subpageArticleFooter{
+    color: #080357;
+        font-size: 15px;
     font-style: italic;
 }
