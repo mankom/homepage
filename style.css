@@ -21,6 +21,12 @@ body {
 }
 
 .link {
-	color: #F49D37;
+	color: #454ADE;
 	font-size: 13px;
+}
+
+.aboutMe{
+	width: 100%;
+	max-width: 700px;
+	min-width: 200px;
 }
