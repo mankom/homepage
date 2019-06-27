@@ -1,6 +1,9 @@
-body {
+body{
 	background: #Fefefe;
-	color: #190E4F
+	color: #190E4F;
+	width: 100%;
+	max-width: 700px;
+	margin: 32px auto ;
 }
 
 .mainHeader {
@@ -14,6 +17,7 @@ body {
 
 .weekSection {
 	color: #B33C86;
+	margin-top: 26px;
 }
 
 .daySection {
@@ -30,3 +34,4 @@ body {
 	max-width: 700px;
 	min-width: 200px;
 }
+
