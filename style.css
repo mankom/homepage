@@ -1,3 +1,13 @@
+.aboutMe__header{
+	color: #080357;
+	padding-left: 10px;
+}
+
+.aboutMe__link{
+	color: #454ADE;
+	font-size: 13px;
+}
+
 body{
 	background: #Fefefe;
 	color: #190E4F;
@@ -6,32 +16,43 @@ body{
 	margin: 32px auto ;
 }
 
-.mainHeader {
-	color: #080357;
+.diary__day{
+	margin-bottom: 50px;
 }
 
-
-.diaryHeader, .sectionHeader {
-	color: #080357;
-}
-
-.weekSection {
-	color: #B33C86;
-	margin-top: 26px;
-}
-
-.daySection {
+.diary__day--header{
 	color: #EA638c;
+	padding-left: 10px;
 }
 
-.link {
+.diary__day--link{
 	color: #454ADE;
 	font-size: 13px;
 }
 
-.aboutMe{
-	width: 100%;
-	max-width: 700px;
-	min-width: 200px;
+.diary__header {
+	color: #080357;
+	padding-left: 10px;
 }
+
+.diary__week--header {
+	color: #B33C86;
+	margin-top: 30px;
+	padding-left: 10px;
+}
+
+.diary__week--link{
+	color: #454ADE;
+	font-size: 13px;
+}
+
+.mainHeader {
+	color: #080357;
+}
+
+.navigation__link {
+	color: #454ADE;
+	font-size: 13px;
+}
+
 

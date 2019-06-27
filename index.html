@@ -10,9 +10,9 @@
 </head>
 
 <body>
-	<header>
-		<a class="link" href="index.html">Strona główna</a>
-		<a class="link" href="podstrona.html">Podstrona</a>
+	<header class="navigation">
+		<a class="navigation__link" href="index.html">Strona główna</a>
+		<a class="navigation__link" href="podstrona.html">Podstrona</a>
 
 
 	</header>
@@ -23,36 +23,36 @@
 			</h1>
 		</header>
 		<section class="aboutMe">
-			<h2 class="sectionHeader">
+			<h2 class="aboutMe__header">
 				Kim jestem?
 			</h2>
-			<p>
+			<p class="aboutMe__paragraph">
 				Jestem początkującym <b>frontendowcem</b>. Pracuję w <strong>TVP S.A.</strong> na stanowisku
 				<i>programista</i>.
 				<br>
-				<a class="link" href="#Pamiętniczek">Przejdź do pamiętniczka</a>
+				<a class="aboutMe__link" href="#Pamiętniczek">Przejdź do pamiętniczka</a>
 			</p>
 		</section>
-		<section id="Pamiętniczek">
-			<h2 class="diaryHeader">
+		<section class="diary">
+			<h2 class="diary__header">
 				Pamiętniczek
 			</h2>
-			<section>
-				<h3 class="weekSection">
+			<section class="diary__week">
+				<h3 class="diary__week--header">
 					Tydzień 1
 				</h3>
-				<p>
+				<p class="diary__week--paragraph">
 					Nudy. Nic ciekawego i nic nowego nie pojawiło się w kursie <em>WTF Co ten frontend</em>. Jak tak
 					dalej pójdzie to
 					zrezygnuję z tego kursu.<br>
-					<a class="link" href="podstrona.html"> Przejdź do artykułu o pisaniu html'a </a>
+					<a class="diary__week--link" href="podstrona.html"> Przejdź do artykułu o pisaniu html'a </a>
 				</p>
 			</section>
-			<section>
-				<h3 class="weekSection">
+			<section class="diary__week">
+				<h3 class="diary__week--header">
 					Tydzień 2
 				</h3>
-				<p>
+				<p class="diary__week--paragraph">
 					No w końcu coś. Choć wciąż więcej wiedzy jest w 5 minutowych filmikach na youtubie. Obejrzałem
 					wszystko w
 					poniedziałek. Zaplanowałem zrobienie pracy domowej. Naprawdę miałem motywacje, jednak chyba jakąś
@@ -61,64 +61,75 @@
 					się zrobić pracy domowej.
 				</p>
 			</section>
-			<section>
-				<h3 class="weekSection">
+			<section class="diary__week">
+				<h3 class="diary__week--header">
 					Tydzień 3
 				</h3>
-				<h4 class="daySection">
-					Poniedziałek
-				</h4>
-				<p>
-					Wspominki, głupie minki.
-				</p>
-				<a class="link" href="./tydzien/poniedzialekTydzien4.html">Przejdź do artykułu.</a>
-				<h4 class="daySection">
-					Wtorek
-				</h4>
-				<p>
-					Budowlańcy jak sąsiedzi.
-				</p>
-				<a class="link" href="./tydzien/wtorekTydzien4.html">Przejdź do artykułu.</a>
-				<h4 class="daySection">
-					Środa
-				</h4>
-				<p>
-					Ada to nie wypada.
-				</p>
-				<a class="link" href="./tydzien/srodaTydzien4.html">Przejdź do artykułu.</a>
-				<h4 class="daySection">
-					Czwartek
-				</h4>
-				<p>
-					A na kolei...
-				</p>
-				<a class="link" href="./tydzien/czwartekTydzien4.html">Przejdź do artykułu.</a>
-				<h4 class="daySection">
-					Piątek
-				</h4>
-				<p>
-					Jedzie pociąg z daleka...
-				</p>
-				<a class="link" href="./tydzien/piatekTydzien4.html">Przejdź do artykułu.</a>
-				<h4 class="daySection">
-					Sobota
-				</h4>
-				<p>
-					Kij jest, a gdzie marchewka?
-				</p>
-				<a class="link" href="./tydzien/sobotaTydzien4.html">Przejdź do artykułu.</a>
-				<h4 class="daySection">
-					Niedziela
-				</h4>
-				<p>
-					Mrok rozjaśniają reflektory...
-				</p>
-				<a class="link" href="./tydzien/niedzielaTydzien4.html">Przejdź do artykułu.</a>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Poniedziłek
+					</h4>
+					<p class="diary__day--paragraph">
+						Wspominki, głupie minki.
+					</p>
+					<a class="diary__day--link" href="./tydzien/poniedzialekTydzien4.html">Przejdź do artykułu.</a>
+				</section>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Wtorek
+					</h4>
+					<p class="diary__day--paragraph">
+						Budowlańcy jak sąsiedzi.
+					</p>
+					<a class="diary__day--link" href="./tydzien/wtorekTydzien4.html">Przejdź do artykułu.</a>
+				</section>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Środa
+					</h4>
+					<p class="diary__day--paragraph">
+						Ada to nie wypada.
+					</p>
+					<a class="diary__day--link" href="./tydzien/srodaTydzien4.html">Przejdź do artykułu.</a>
+				</section>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Czwartek
+					</h4>
+					<p class="diary__day--paragraph">
+						A na kolei...
+					</p>
+					<a class="diary__day--link" href="./tydzien/czwartekTydzien4.html">Przejdź do artykułu.</a>
+				</section>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Piątek
+					</h4>
+					<p class="diary__day--paragraph">
+						Jedzie pociąg z daleka...
+					</p>
+					<a class="diary__day--link" href="./tydzien/piatekTydzien4.html">Przejdź do artykułu.</a>
+				</section>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Sobota
+					</h4>
+					<p class="diary__day--paragraph">
+						Kij jest, a gdzie marchewka?
+					</p>
+					<a class="diary__day--link" href="./tydzien/sobotaTydzien4.html">Przejdź do artykułu.</a>
+				</section>
+				<section class="diary__day">
+					<h4 class="diary__day--header">
+						Niedziela
+					</h4>
+					<p class="diary__day--paragraph">
+						Mrok rozjaśniają reflektory...
+					</p>
+					<a class="diary__day--link" href="./tydzien/niedzielaTydzien4.html">Przejdź do artykułu.</a>
+				</section>
 			</section>
 		</section>
-		<br />
-		<br />
-
 	</main>
 	<footer>
 		Strona domowa Marka Mańko, wszystkie treści są efektem szkolenia WTF: Co ten frontend.
