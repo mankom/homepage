@@ -68,6 +68,7 @@ body{
 
 .navigation__item{
 	display: inline;
+	margin-right: 8px;
 }
 .navigation__link {
 	color: #454ADE;
@@ -78,4 +79,6 @@ body{
 	margin: 0px 8px;
 	list-style: none;
 	padding: 0;
+	display: flex;
+	justify-content: center;
 }
