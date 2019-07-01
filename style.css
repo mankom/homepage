@@ -46,13 +46,36 @@ body{
 	font-size: 13px;
 }
 
-.mainHeader {
-	color: #080357;
+.hobby__list{
+	list-style: none;
+	padding: 0;
 }
 
+.header {
+	color: #080357;
+	padding-top: 40px;
+}
+
+.main-header{
+	background: #Fefefe;
+	box-sizing: border-box;
+	left: 0;
+	padding: 8px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navigation__item{
+	display: inline;
+}
 .navigation__link {
 	color: #454ADE;
 	font-size: 13px;
 }
 
-
+.navigation__list{
+	margin: 0px 8px;
+	list-style: none;
+	padding: 0;
+}
