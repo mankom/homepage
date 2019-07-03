@@ -38,4 +38,8 @@ function helloWorld(name, age) {
 	return age;
 }
 
+const welcome = (name, age) => {
+	console.log("Witaj ${name}, masz ${age} lat.")
+}
+
 console.log(helloWorld('Marek', 41));
