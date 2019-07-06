@@ -10,20 +10,17 @@
 
 body {
 	background: rgb(234, 99, 140);
-	background: linear-gradient(237deg, rgba(234,99,140,1) 0%, rgba(254,254,254,1) 44%, rgba(254,254,254,1) 75%, rgba(8,3,87,1) 100%);
+	background: linear-gradient(225deg, rgba(234, 99, 140, 1) 0%, rgba(254, 254, 254, 1) 44%, rgba(254, 254, 254, 1) 75%, rgba(8, 3, 87, 1) 100%);
 	color: #190E4F;
 	width: 100%;
 	max-width: 700px;
 	margin: 32px auto;
 }
 
-.diary__day {
-	margin-bottom: 50px;
-}
-
 .diary__day--header {
 	color: #EA638c;
 	padding-left: 10px;
+	margin-top: 0;
 }
 
 .diary__day--link {
@@ -45,6 +42,19 @@ body {
 .diary__week--link {
 	color: #454ADE;
 	font-size: 13px;
+}
+
+.grid__days {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+	margin-bottom: 32px;
+}
+
+.grid__day {
+	background:rgba(8,3,87,0.66);
+	padding: 16px;
+	border-radius: 8px;
 }
 
 .hobby__list {
@@ -69,7 +79,7 @@ body {
 
 .navigation__item {
 	display: inline;
-	margin:0 8px;
+	margin: 0 8px;
 }
 
 .navigation__link {
