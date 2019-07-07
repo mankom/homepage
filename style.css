@@ -10,7 +10,7 @@
 
 body {
 	background: rgb(234, 99, 140);
-	background: linear-gradient(225deg, rgba(234, 99, 140, 1) 0%, rgba(254, 254, 254, 1) 44%, rgba(254, 254, 254, 1) 75%, rgba(8, 3, 87, 1) 100%);
+	background: linear-gradient(225deg, rgba(234, 99, 140, 1) 0%, rgba(254, 254, 254, 1) 33%, rgba(254, 254, 254, 1) 89%, rgba(8, 3, 87, 1) 100%);
 	color: #190E4F;
 	width: 100%;
 	max-width: 700px;
@@ -30,7 +30,8 @@ body {
 
 .diary__header {
 	color: #080357;
-	padding-left: 10px;
+  padding-left: 10px;
+
 }
 
 .diary__week--header {
@@ -64,7 +65,11 @@ body {
 
 .header {
 	color: #080357;
-	padding-top: 40px;
+  padding-top: 40px;
+}
+
+main{
+  margin: 16px;
 }
 
 .main-header {
@@ -94,4 +99,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media (max-width: 640px){
+  .grid__days{
+    grid-template-columns: 1fr;
+  }
 }
