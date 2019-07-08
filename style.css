@@ -25,7 +25,10 @@ body {
 
 .diary__day--link {
 	color: #454ADE;
-	font-size: 13px;
+  font-size: 13px;
+  background:rgba(254, 254, 254, 1);
+  padding: 8px;
+  border-radius: 24px;
 }
 
 .diary__header {
@@ -53,9 +56,10 @@ body {
 }
 
 .grid__day {
-	background:rgba(8,3,87,0.66);
+	background:rgba(8,3,87,.8);
 	padding: 16px;
-	border-radius: 8px;
+  border-radius: 8px;
+  color: #B33C86;
 }
 
 .hobby__list {
